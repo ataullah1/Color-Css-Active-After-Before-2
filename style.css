@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.containar {
+    width: 90%;
+    height: 500px;
+    padding: 30px;
+    background-color: rgb(45, 167, 45);
+    margin: 130px auto;
+    border-radius: 60px;
+}
+
+.first-box {
+    width: 50%;
+    height: 100%;
+    background-color: thistle;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 10px -4px 10px 10px gold;
+    margin: auto;
+}
+
+.second-box {
+    text-align: center;
+    padding-top: 150px;
+    /* background-color: yellow; */
+}
+
+.text {
+    background-color: turquoise;
+    height: 140px;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px 0px 40px 0px;
+    box-shadow: 8px 10px 5px 0px rebeccapurple;
+}
+
+.text h1 {
+    font-size: 35px;
+    color: tomato;
+    font-style: oblique;
+}
+
+.text h1::after {
+    content: " Md Ataullah";
+    color: violet;
+}
+
+.text p {
+    font-size: 22px;
+    color: rgb(247, 143, 7);
+    font-style: oblique;
+    text-transform: capitalize;
+    padding: 10px 0px 20px;
+}
+
+.text p::before {
+    content: "Please";
+    color: rgb(38, 17, 223);
+}
+
+.text a {
+    font-size: 25px;
+    color: seagreen;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.text a:hover {
+    background-color: tomato;
+    color: rgb(7, 26, 46);
+}
+
+.text a:focus {
+    font-size: 32px;
+    color: blueviolet;
+}
+
+.text a:active {
+    color: red;
+    font-size: 30px;
+}
